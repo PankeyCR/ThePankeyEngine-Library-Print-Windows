@@ -21,6 +21,11 @@ namespace pankey{
 					std::cout << a_data;
 					return 1;
 				}
+				
+				pankey::Memory::Allocator::memory_size writeLongLong(long long a_data){
+					std::cout << a_data;
+					return 1;
+				}
 
 				pankey::Memory::Allocator::memory_size writeString(const char* str){
 					if(str == nullptr){
